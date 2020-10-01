@@ -42,3 +42,10 @@ print(bb)
 cc = aa[0]
 dd = cc.split("e")          #splits at 'e'
 print(dd)
+
+##List Comprehension
+
+pow2 = [2 ** x for x in range(10)]
+print(pow2)
+#Output
+[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
